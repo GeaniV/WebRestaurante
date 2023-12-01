@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Restaurante Sinfonía de Sabores</title>
+    <link rel="stylesheet" href="css/estilos_contacto.css">
+</head>
+
+<body>
+  <div id="portada">
+    <header class="d">
+      <img src="img/log.png" id="logo" alt="logo"/>
+      <h1>Restaurante Sinfonía de Sabores</h1>
+    </header>
+    <nav class="d">
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menú</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li class="enlace_inactivo"><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <h2 class="centrado">CONTACTO</h2>
+  </div>
+
+  <section>
+    <article>
+      <form id="form" action="mailto:direcciondelcorreo@correo.com" method="get">
+        <legend><h3>Envíanos un mensaje</h3></legend>
+          <label for="nombre">Nombre*</label>
+          <input type="text" id="nombre" name="nombre" required/>
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" required/>
+          <label for="mensaje">Mensaje*</label>
+          <textarea rows="10" id="mensaje" name="mensaje" required></textarea>
+          <input type="checkbox" id="check" name="terminos" required>
+          <label for="terminos" class="centro">He leido y acepto la <a href="#" target="_blank">Política de Privacidad*</a></label>
+          <input type="submit" value="Enviar">
+      </form>
+    </article>
+    <article>
+      <h3>Contacta con nosotros</h3>
+      <p>¿Piensas en algo que te gustaría consultarnos?</p>
+      <p>Por favor no dudes en ponerte en contacto con nosotros.</p>
+      <p>Telefono: 678912345</p>
+      <p>Email: restaurante@email.com</p>
+      <p>C/EnVitoria, 01008, Vitoria-Gasteiz</p>
+    </article>
+  </section>
+
+  <footer>
+    <a href="#redes_sociales"><img src="img/social-media.png" alt="Iconos redes sociales"></a>
+    <ul>
+      <li><a href="#">Aviso legal</a></li>
+      <li><a href="#">Política de cookies</a></li>
+      <li><a href="#">Política de privacidad</a></li>
+    </ul>
+    <p>&copy;2023 Valentina Stan. Página web realizada con fines educativos. Todos los derechos reservados.</p>
+  </footer>
+
+
+</body>
+</html>
